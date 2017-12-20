@@ -1,0 +1,20 @@
+/*		=====================   	===================	     *\
+							content style
+\*		=====================   	===================	     */
+
+.content_bloc {
+  clear: both;
+}
+
+.content_img, .content_title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content_title {
+  margin-left: .5em;
+}
+
+.content_header {
+  border-bottom: .2em solid black;
+}

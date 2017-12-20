@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+		<title>Plannings des Astreintes</title>
+
+
+		<link rel="shortcut icon" type="image/x-ico" href="./Plannings des Astreintes_files/logo.png">
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- feuille de style all -->
+		<link rel="stylesheet" href="./Plannings des Astreintes_files/header_style.css">
+		<link rel="stylesheet" href="./Plannings des Astreintes_files/footer_style.css">
+		<link rel="stylesheet" href="./Plannings des Astreintes_files/content_style.css">
+		<link rel="stylesheet" href="./Plannings des Astreintes_files/bootstrap.min.css">
+	
+
+	
+<!-- feuille de style des astreintes -->
+<link rel="stylesheet" href="./Plannings des Astreintes_files/astreintes_style.css">
+<link rel="stylesheet" href="./Plannings des Astreintes_files/jquery-ui.min.css"></head><!-- fermeture du head -->
+
+<body>
+
+	<div class="container-fluid">
+
+		<!-- Header de la page, avec la navigation -->
+		<header>
+
+			<nav class="navbar navbar-inverse " role="navigation">
+				
+				<div class="main_header container-fluid">
+
+					<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<div class="logo"><img class="img-responsive" src="./Plannings des Astreintes_files/logo.png" alt="logo_orange" style="width: 50px; height: 50px;"></div>
+						<p class="logo_label navbar-brand"><strong>Portail SMC</strong></p>
+					</div>
+
+					<!-- <div class="nav"> -->
+					<div class="nav collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<ul class="list-inline list-unstyled">
+
+							<li class=""><img class="hidden-xs" src="./Plannings des Astreintes_files/accueil.png" alt="accueil_img"><br><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes#">SMC Infos</a>
+								<span class="sr-only"></span>
+							</li>
+							<li class=""><img class="hidden-xs" src="./Plannings des Astreintes_files/catalog.png" alt="catalog_img"><br><a href="http://localhost:8080/portail_smc2/index.php/catalogue/services_display" id="service_nav">Services</a></li>
+							<li class=""><img class="hidden-xs" src="./Plannings des Astreintes_files/astreintes.png" alt="astreintes_img"><br><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes" id="astreintes_nav">Astreintes</a></li>
+							<li class=""><img class="hidden-xs" src="./Plannings des Astreintes_files/clients_internes.png" alt="clients_internes_img"><br><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes#">Tickets internes</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</nav>
+			
+			<div class="under_nav ">
+
+				<div class="user_data" style="margin-bottom: 5px;">
+
+					<img class="img-circle usr_pic" style="background: lightgrey;" src="./Plannings des Astreintes_files/Uu22.png" alt="user_pic">
+					<span style="font-weight: bold; color: #3cf;"><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes#">Uriel abs</a></span>
+
+					<div class="btn-group">
+
+						<button class="btn btn-link dropdwn-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">
+
+							<span class="caret" style="cursor: pointer;"></span>
+						</button>
+
+						<ul class="dropdown-menu pull-right">
+						
+							<li><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes"><span class="glyphicon glyphicon-wrench"></span> Administration</a></li>
+							<li><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes"><span class="glyphicon glyphicon-user"></span> Compte</a></li>
+							<li class="divider"></li>
+							<li><a href="http://localhost:8080/portail_smc2/index.php/Astreintes/display_astreintes"><span class="glyphicon glyphicon-log-out"></span> Deconnexion</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+<style>
+	
+	#astreintes_nav{
+		color: #FF6501;
+  		text-decoration: none;
+  		border-bottom: 2px solid #FF6501;
+	}
+</style>
+
+
+<span id="site_url" style="visibility:hidden;">http://localhost:8080/portail_smc2/index.php</span>
+<!-- ================ 	CONTENU DU MODULE D'ASTREINTES ================	-->
+
+<div class="content_bloc container-fluid">
+
+	<!-- Header du contenu de la page -->
+	<div class="content_header">
+
+		<div class="content_img"><img class="img-responsive" src="./Plannings des Astreintes_files/astreintes(1).png" alt="astreintes"></div>
+		
+		<div class="content_title"><h2> Plannings des Astreintes </h2></div>
+
+		<!-- <div class="search_field" style="float: right;">
+		
+			<input type="text" style="width:150px; margin-top: 1.7em; font-style: italic; display: inline-block;  vertical-align: middle;" class="input-sm form-control" placeholder="Rechercher un service">
+			
+			<button type="submit" class="btn btn-primary btn_recherche"><span class=" glyphicon glyphicon-search"></span></button>
+		</div> -->
+	</div>
+	
+	<div class="plannings_astreintes" style="margin:1% 2%;">
+		
+		<div class="astreintes_header" style="">
+
+			<h2 style="float: left;">
+				<span class="glyphicon glyphicon-asterisk" style="vertical-align:top; color:#ff6501;"></span>
+				Mois :
+				<!-- <span class="glyphicon glyphicon-triangle-left"></span> -->
+
+				<!-- <script>document.write(mois_annee);</script> -->
+				<span id="mois_annee"><b>Août 2016</b></span>
+				<!-- <span class="glyphicon glyphicon-triangle-right"></span> -->
+				<input id="calendar_select" class="form-control hasDatepicker" type="hidden" placeholder="Date" name="calendar_select" style="display:inline-block;"><img class="ui-datepicker-trigger" src="./Plannings des Astreintes_files/b_calendar.png" alt="..." title="...">
+			</h2>
+
+			<!-- <h3 style="display:inline-block;">Semaine</h3> -->
+			<div class="semaine_date" style="margin-bottom:;">
+				
+
+				<h4>du <span id="date_debut"><b>15 Août</b> </span> au <span id="date_fin"><b>21 Août</b> </span></h4>
+						
+				<!-- <input id="rang_semaine" type="number" min="1" max="52" name="rang_semaine" class="form-control" style="display:inline-block;width:30%;"> -->
+				<!-- <span id="calendar_icon"><img src="/img/b_calendar.png" alt="b_calendar"></span> -->
+			</div>
+		</div>
+
+
+		<!-- SELECTION DE PLANNING DE CHAQUE SERVICE -->
+		<div class="astreintes_box">
+
+			<div class="list_services_astreintes" style="clear:both;">
+				<hr>
+				<br>
+				<label style="font-size:16px;font-weight:normal;">Services <span class="caret"></span></label>
+				<!-- Liste de selection des services, pour affichage de leurs plannings d'astreintes respectives -->
+				<select id="service_name" class="form-control" style="width:50%;" name="service_name">
+
+					<option class="smc_maintenance" value="SMC - Maintenance">SMC - Maintenance</option>
+					<option class="smc_management" value="SMC - Management">SMC - Management</option>
+					<option class="tmc_evt" value="TMC - Environnement technique">TMC - EVT</option>
+					<option class="sassbd" value="SASSBD">SASSBD</option>
+					<option class="osi_bss" value="OSI BSS">OSI BSS</option>
+				</select>
+			</div>
+
+			<br>
+			<br>
+
+			<!-- EN-TÊTE DU BOX D'AFFICHAGE DES PLANNINGS D'ASTREINTES -->
+			<div class="planning_box_header page-header" style="margin-bottom:2%;">
+				<p class="info_planning">
+					<span id="info_planning_title" style="font-weight:bold;">SMC - Maintenance</span>
+					<span class="glyphicon glyphicon-pushpin" style="float:right;"></span>
+				</p>
+			</div>
+
+			<!-- AFFICHAGE DES PLANNINGS D'ASTREINTES -->
+			<div class="planning_box">
+				
+				<!-- PLANNINGS DU SERVICE SMC MAINTENANCE-->
+				<div class="service_planning active" id="smc_maintenance" style="display: block;">Aucune astreinte recorded for this period</div>
+
+				<!-- PLANNINGS DU SERVICE SMC MANAGEMENT-->
+				<div class="service_planning " id="smc_management" style="display: none;">
+
+					<!-- astreintes management -->
+					<div>
+						<ul>
+							<li>
+								<h4 style="margin-left:2%;" class="service_branch">Astreintes Management</h4>
+							</li>
+						</ul>
+		 				
+		 				<!-- administration Robots -->
+						<table class="table table-bordered table-striped">
+
+							<thead>
+								<tr>
+									<!-- <th></th>
+									<th></th> -->
+									<th colspan="3" class="table_title">Administration Robots</th>
+									<!-- <th ></th> -->
+								</tr>
+								<tr>
+									<th>Niveau 1</th>
+									<th>Niveau 2</th>
+									<th>Escalade</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td class="responsable_cell" style="vertical-align:middle;">Equipe FO Concernée</td>
+									<td class="responsable_cell" style="vertical-align:middle;">Rosalie Messila  <br><span class="tel">699 94 98 94</span></td>
+									<td class="responsable_cell" style="vertical-align:middle;">ASTREINTE MANAGERIALE SMC</td>
+								</tr>
+							</tbody>
+						</table>
+						<br><br>
+	 	
+		 				<!-- administration SAV2000 -->
+						<table class="table table-bordered table-striped">
+
+							<thead>
+								<tr>
+									<!-- <th></th>
+									<th></th> -->
+									<th colspan="3" class="table_title">Administration SAV2000 <br><span>(OCEANE, SWAN...)</span></th>
+									<!-- <th ></th> -->
+								</tr>
+								<tr>
+									<th>Niveau 1</th>
+									<th>Escalade</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td class="responsable_cell" style="vertical-align:middle;">Rosalie Messila <br><span class="tel">699 94 98 94</span></td>
+									<td class="responsable_cell" style="vertical-align:middle;">ASTREINTE MANAGERIALE SMC</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>	
+				</div>
+				
+				<!-- PLANNINGS DU SERVICE TMC ET ENVIRONNEMENT TECHNIQUE -->
+				<div class="service_planning" id="tmc_evt" style="display: none;">
+					
+				</div>
+				
+				<!-- PLANNINGS DU SERVICE SASSBD -->
+				<div class="service_planning" id="sassbd" style="display: none;">
+					
+				</div>
+				
+				<!-- PLANNINGS DU SERVICE OSI ET BSS -->
+				<div class="service_planning" id="osi_bss" style="display: none;">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	<!-- FOOTER DE LA PAGE -->
+	<footer class="container-fluid">
+		<p>Orange Cameroun - © 2016 </p>
+	</footer>
+</div>
+
+<!-- Script communs -->
+<script type="text/javascript" src="./Plannings des Astreintes_files/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="./Plannings des Astreintes_files/bootstrap.min.js"></script>
+		
+<script type="text/javascript" src="./Plannings des Astreintes_files/jquery-ui.min.js"></script>
+
+<!-- script de la page des astreintes -->
+<script rel="text/javascript" src="./Plannings des Astreintes_files/astreintes_script.js"></script>
+	
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
