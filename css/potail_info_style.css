@@ -1,0 +1,9 @@
+body {
+  background-color: #eee;
+}
+
+.content_bloc {
+  background-color: #fff;
+  padding-bottom: 10%;
+  border-radius: 6px 6px;
+}

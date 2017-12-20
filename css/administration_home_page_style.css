@@ -1,0 +1,31 @@
+.admin_service_links{
+ 	display: inline-block;
+    /*vertical-align: text-bottom;*/
+    margin-left: 2%;
+}
+
+.blocs{
+	margin:5% auto;  
+	display: inline-block;
+}
+
+.bloc_items{
+	width: 90%;
+	margin:5% auto;
+	margin-left: 17%;
+}
+
+
+.img_service{
+	height: 7em;
+	width: 53em;
+}
+
+.service_img{
+	width: 22%;
+}
+
+td{
+	border-left: 2px solid #c1c1c1;
+	padding-left: 5%;
+}

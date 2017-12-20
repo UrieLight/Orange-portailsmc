@@ -1,0 +1,260 @@
+body {
+  background-color: #eee;
+}
+
+.content_bloc {
+  background-color: #fff;
+  padding-bottom: 10%;
+  border-radius: 6px 6px;
+}
+
+/*===================== 	  Services 		================== */
+
+.admin_module {
+  margin-top: 1%;
+}
+
+.admin_module img {
+  width: 5%;
+  height: 5%;
+}
+
+.admin_module_title {
+  font-size: 22px;
+}
+
+/*===================== 	service head 	================== */
+
+.service_form {
+  margin-top: 1em;
+}
+
+form {
+  margin-top: 1em;
+}
+
+.service_img {/*background-color: #d3d3ff;*/
+  width: 12%;
+  height: 12%;
+}
+
+.service_img, .service_name, .service_description {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.service_name, .architecture_name {/*padding-top: 50%;*/
+  margin-left: 2%;
+  margin-top: -2%;
+  /*height: 7%;*/
+  width: 25%;
+}
+
+.service_description/* , .architecture_description  */{
+  width: 35%;
+  /*height: 9%;*/
+  margin-right: 10%;
+  margin-top: 1%;
+  float: right;
+  font-style: italic;
+}
+
+textarea {
+  max-height: 81px;
+  max-width: 290px;
+}
+
+/*===================== 	service info 	================== */
+
+.page-header {
+  padding-bottom: 1px;
+  background-color: #f5f5f5
+  /* margin: 40px 0 20px;
+    border-bottom: none; */
+}
+
+.service_info .info_title {
+  font-size: 1.3em;
+  /*background-color: #fff;*/
+  border: 2px solid #ff6501; /*#4bb4e6; #50be87;*/
+  border-bottom: none;
+  /*color: #ff6501;*/
+  border-radius: 5px 5px 0 0;
+  padding: 1% 2%;
+  /*width: 30%;*/
+}
+
+.service_info img {
+  float: right;
+}
+
+.service_info_content {
+  margin: 0 2%;
+}
+
+.service_info {
+  padding-bottom: 5%;
+  border-bottom: 1px solid #ff6501;
+  border-radius: 0 0 15px 5px;
+  background-color: #fff;/*rgba(49, 49, 49, 0.01);*/
+  width: 95%;
+  margin-bottom: 2em;
+  /*margin: 0 22px;
+  /**//*box-shadow: 3px 2px 10px black;*//*padding: 0 1%;*/
+}
+
+.info_content, .chaine_sout_tab {
+  padding-left: 2%;
+}
+
+input+label, input[type="radio"] {
+  cursor: pointer;
+}
+
+label {
+  font-weight: 100;
+}
+
+.btn-lg {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+table th {
+  text-align: center;
+  background-color: #ffff0f;
+}
+
+.chaine_escalade table th {
+  background-color: #74dcff;
+}
+
+table td input{
+  margin: 0 .5%;
+  /* padding: 10px 10px; */
+}
+
+table li {
+  cursor: default;
+}
+
+table .tel1, table .tel2 {
+  color: #f39;
+}
+
+table .email {
+  color: #06f;
+}
+
+table .eds {
+  color: #60c;
+}
+
+.list_respsbl_input li:hover{
+  background: lightblue;
+}
+
+.list_respsbl_input input{
+  /* margin-left: 1%;
+  margin-right: 1%; */
+}
+
+.lien_externe_creation{
+  font-size: 13px;
+}
+
+
+/*============ Architecture ==================*/
+
+.palette {
+  border: 1px solid;
+}
+
+#full_palette {
+  margin: 0 auto;
+  width: 64%;
+  height: 13em;
+  background: #d6d6d6;
+}
+
+#full_palette:hover {
+  border: 1px solid #50be87;
+}
+
+.low_block {
+  /* margin: 0em 7%; */
+  width: 100%;
+  height: 500px;
+  background-color: #FFF;
+}
+
+#custom_palette, #workplace {
+  display: inline-block;
+}
+
+#workplace {
+  margin-left: 2em;
+  height: 100%;
+  width: 70%;
+  /* background: #8f8f8f; */
+}
+
+#custom_palette {
+  width: 13%;
+  height: 100%;
+  background: #fff;
+}
+
+#custom_palette:hover {
+  border: 1px solid #74dcff;
+}
+
+.palette_element {
+  float: left;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.palette_element img {
+  width: 40px;
+  height: 50px;
+}
+
+.palette_element p {
+  display: none;
+}
+
+#workplace .palette_element {
+  float: none;
+}
+
+
+.fin_de_creation{
+  margin-top: 15px; 
+  margin-left: 5%; 
+  border: 1px solid #ff6501; 
+  background-color: white; 
+  color: black; 
+  font-weight: bold;
+}
+
+.fin_de_creation:hover{
+  background-color: #eee;
+  color: #ff6501;
+  border: 1px solid black; 
+}
+
+
+
+/*=====================   Nouvelle chaine de soutien  ================== */
+.groupe_soutien_info{
+  width: 50%;
+}

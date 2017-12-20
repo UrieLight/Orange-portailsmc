@@ -1,0 +1,17 @@
+.img_bloc{
+
+	width: 125px;
+	height: 130px;
+	margin: 10% auto;
+}
+
+.bloc{
+	display: inline-block;
+	margin: 2% 5%;
+}
+
+.bloc_items{
+	margin: 2% auto;
+	width: 80%;
+	text-align: center;
+}

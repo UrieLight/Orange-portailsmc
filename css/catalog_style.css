@@ -1,0 +1,256 @@
+/*=====================   Loading animation   ================== */
+
+/* .no-js #loader { display: none;  } */
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  /* z-index: 9999; */
+  background: url(../img/header/loading.gif) center no-repeat #eee;
+}
+
+
+/*=====================   End Loading animation   ================== */
+
+
+
+body {
+  background-color: #eee;
+}
+
+.content_bloc {
+  background-color: #fff;
+  padding-bottom: 10%;
+  border-radius: 6px 6px;
+}
+
+.btn_recherche{
+  margin-top: 1.3em;
+  margin-left: -4px;
+  height:2em;
+  width: 2.3em;
+  padding: inherit;
+}
+
+/*=====================   Services ================== */
+
+/*=====================   service head  ================== */
+
+.service, .contact, .plateformes, .architecture {
+  margin-top: .8em;
+  border-bottom: 2px solid #ff6501;
+}
+
+.service_img, .contact_img, .plateforme_img, .architecture_img {/*background-color: #d3d3ff;*/
+  width: 70px;
+  height: 100px;
+  /* margin-top: 17%; */
+  cursor: pointer;
+}
+
+.recherche {
+  display: inline-flex;
+  float: right;
+  margin-top: 2.8%;
+}
+
+.input-sm, .btn-sm {
+  margin-top: -3%;
+}
+
+.service_img, .service_name, .service_description, .contact_img, .plateforme_img, .architecture_img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.service_description, .plateforme_info {
+  width: 45%;
+  margin-right: 10%;
+  margin-top: 1%;
+  float: right;
+  font-style: italic;
+}
+
+/*===================== info service ================== */
+
+.navs_content {/*margin-top: 3em;*/
+}
+
+.service_name, .plateforme_name, .architecture_name {
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.service_name:hover, .plateforme_name:hover, .architecture_name:hover {
+  color: #ff6501;
+  /* cursor: pointer; */
+}
+
+/* hidding the informations about a serverice, by default*/
+
+.service_info {
+  display: none;
+}
+
+.service_info .nav-tabs>li.active>a, .service_info .nav-tabs>li.active>a:focus,
+.service_info .nav-tabs>li.active>a:hover {
+  border: 1px solid #ff6501;
+  border-bottom: none;
+  color: #23527c;
+  /*background-color: #74dcff;*/
+}
+
+.service_info .nav-tabs {
+  border-bottom: 1px solid #ff6501;
+}
+
+.service_info ul li a {
+  color: #555;
+}
+
+.service_info ul {
+  float: none;
+  /*align-content: center;*/
+}
+
+.service_info ul li {/*margin-right: -1em;*/
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.modal-body{
+  overflow-y: auto;
+}
+/*===================== tableaux ================== */ 
+
+.service_info table#chainesout{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5%;
+  table-layout: fixed;
+}
+
+.service_info table#chainesc{
+  /* width: 90%; */
+  margin: auto;
+  margin-bottom: 5%;
+  table-layout: fixed;
+}
+
+table th {
+  text-align: center;
+  background-color: #ffff0f;
+}
+
+#chainesc th {
+  background-color: #74dcff;
+}
+
+#plateforme th {
+  background-color: #d9c2f0;
+}
+
+table td p {
+  padding: 15px 15px;
+}
+
+table td:hover {
+  /* padding: 15px 15px; */
+  cursor: pointer;
+  border-color: #ff6501;
+}
+
+table .tel1, table .tel2 {
+  color: #f39;
+}
+
+table .email {
+  color: #06f;
+}
+
+table .eds {
+  color: #60c;
+}
+
+.plateforme_chaines_tab, .level_sout_chainesc {
+  overflow: auto;
+}
+
+.diagrammes{
+  width: 650px; 
+  height: 300px; 
+  background-color: #888; 
+  margin: 0 auto; 
+  margin-bottom: 2em; 
+  border-radius: 3px;
+}
+
+/*    =====================     ===================      *\
+              media queries
+\*    =====================     ===================      */
+
+/*===================== content style ================== */
+
+@media (max-width: 720px) {
+  .content_title h2 {
+    font-size: 25px;
+  }
+
+  .service_name strong {
+    font-size: 16px;
+  }
+
+  .service_description {
+    font-size: 14px;
+  }
+
+  .service_img {
+    width: 100px;
+    height: 94px;
+  }
+}
+
+@media (max-width: 501px) {
+  .content_title h2 {
+    font-size: 20px;
+  }
+
+  .service_name strong {
+    font-size: 15px;
+  }
+
+  .service_description {
+    font-size: 12px;
+  }
+
+  .service_img {
+    width: 70px;
+    height: 64px;
+  }
+}
+
+@media (max-width: 799px) {
+  .content_title h2 {
+    font-size: 26px;
+  }
+}
+
+/*===================== Service style ================== */
+
+/* info service*/
+
+@media (min-width: 1220px) {/* marge de la barre de recherche des services */
+
+  .input-sm, .btn-sm {
+    margin-top: -7%;
+  }
+}
+
+@media (max-width: 864px) {
+  .input-sm, .btn-sm {
+    margin-top: 0%;
+  }
+}

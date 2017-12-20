@@ -1,0 +1,10 @@
+footer{
+	height: 7em;
+	background-color: black;
+	color: #ff6501;/* #74dcff; */
+	text-align: center;
+    padding-top: 3em;
+    margin-top: 2%;
+	/*margin-bottom: 0px;*/
+    border-radius: 5px 5px 0 0;
+}
