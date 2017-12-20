@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?= $root_path; ?>/css/administration_home_page_style.css" />

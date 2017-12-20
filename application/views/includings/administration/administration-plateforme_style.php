@@ -1,0 +1,1 @@
+<link rel="stylesheet" type="text/css" href="<?= $root_path ?>/css/administration-plateforme_style.css" />
