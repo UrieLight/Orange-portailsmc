@@ -1,0 +1,10 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/server_firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-15, "loc":"192 176"},
+{"text":"Database", "figure":"Database", "fill":"lightgray", "key":-3, "loc":"408 176"},
+{"text":"Text", "figure":"Circle", "fill":"red", "key":-5, "loc":"248 344"}
+ ],
+  "linkDataArray": [ 
+{"from":-5, "to":-15, "points":[248,314.3507449127907,248,304.3507449127907,248,304.3507449127907,192,304.3507449127907,192,210.5,192,200.5]},
+{"from":-15, "to":-3, "points":[209,176,219,176,219,176,219,176,362,176,372,176]}
+ ]}

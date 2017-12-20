@@ -1,0 +1,22 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"key":"phone.", "name":"phone", "source":"../../img/eqpmt/phone.png", "loc":"-339.82206547741873 -55.84050274410694"},
+{"key":"bts.", "name":"BTS", "source":"../../img/eqpmt/bts.png", "loc":"-212.36525361419135 -103.07746067408377"},
+{"key":"serv.", "name":"serveur", "source":"../../img/eqpmt/serveur.png", "loc":"-102.60503923919129 -100.52489754908376"},
+{"key":"IN", "name":"IN", "source":"../../img/eqpmt/ordinateur_central.png", "loc":"22.470553885808783 -126.05052879908376"},
+{"key":"SMSC", "name":"SMSC", "source":"../../img/eqpmt/serveur.png", "loc":"165.41408888580878 -27.77684848658373"},
+{"key":"IN2", "name":"IN", "source":"../../img/eqpmt/ordinateur_central.png", "loc":"16.089146073308825 -13.737751299083726"},
+{"key":"ZEBRA", "name":"ZEBRA", "source":"../../img/eqpmt/serveur_application.png", "loc":"290.97785970846513 -113.90990043580253"},
+{"key":"OM_GW", "name":"OM_GW", "source":"../../img/eqpmt/certificat_server.png", "loc":"157.0412253887917 -168.5198168767711"},
+{"key":"USSD", "name":"USSD", "source":"../../img/eqpmt/serveur.png", "loc":"304.78676976769805 50.98784905760397"}
+ ],
+  "linkDataArray": [ 
+{"from":"IN", "to":"IN2"},
+{"from":"serv.", "to":"IN2"},
+{"from":"bts.", "to":"serv."},
+{"from":"phone.", "to":"bts."},
+{"from":"IN2", "to":"SMSC"},
+{"from":"ZEBRA", "to":"SMSC"},
+{"from":"OM_GW", "to":"SMSC"},
+{"from":"SMSC", "to":"USSD"}
+ ]}

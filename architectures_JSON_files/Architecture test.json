@@ -1,0 +1,18 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-7, "loc":"480 232"},
+{"source":"../../img/eqpmt/bridge.png", "width":45, "height":61, "category":"ImageNode", "key":-8, "loc":"328 240"},
+{"source":"../../img/eqpmt/serveur_fichier.png", "width":45, "height":61, "category":"ImageNode", "key":-10, "loc":"144 200"},
+{"source":"../../img/eqpmt/bts.png", "width":45, "height":61, "category":"ImageNode", "key":-13, "loc":"320 344"},
+{"source":"../../img/eqpmt/fh.png", "width":45, "height":61, "category":"ImageNode", "key":-29, "loc":"248 344", "size":"83 29"},
+{"source":"../../img/eqpmt/phone.png", "margin":2, "category":"ImageNode", "key":-11, "loc":"200 368", "size":"34 54"},
+{"source":"../../img/eqpmt/firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-12, "loc":"416 344"},
+{"source":"../../img/eqpmt/ordinateur_central.png", "width":45, "height":61, "category":"ImageNode", "key":-14, "loc":"528 344"}
+ ],
+  "linkDataArray": [ 
+{"from":-10, "to":-8, "points":[ 161,200,171,200,180,200,180,240,301,240,311,240 ]},
+{"from":-8, "to":-7, "points":[ 345,240,355,240,364,240,364,232,453,232,463,232 ]},
+{"from":-8, "to":-13, "points":[ 328,264.5,328,274.5,328,284,320,284,320,309.5,320,319.5 ]},
+{"from":-12, "to":-14, "points":[433,344,511,344]},
+{"from":-13, "to":-12, "points":[337,344,399,344]}
+ ]}

@@ -1,0 +1,13 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+		{"key":"serv-app.", "name":"serveur applications", "source":"../../img/eqpmt/serveur_application.png", "pos":"-130.1875 -148.859375"},
+		{"key":"serv-data.", "name":"serveur de donnees", "source":"../../img/eqpmt/serveur_donnees.png", "pos":"72.8125 -104.859375"},
+		{"key":"serv-data.2", "name":"serveur de donnees", "source":"../../img/eqpmt/serveur_donnees.png", "pos":"-243.1875 -68.859375"}
+	],
+	
+	"linkDataArray": [ 
+		{"from":"serv-data.2", "to":"serv-app."},
+		{"from":"serv-app.", "to":"serv-data."}
+	]
+}
+

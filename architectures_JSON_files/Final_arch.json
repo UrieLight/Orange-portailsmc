@@ -1,0 +1,16 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-12, "loc":"520 232"},
+{"source":"../../img/eqpmt/bts.png", "width":45, "height":61, "category":"ImageNode", "key":-13, "loc":"224 240"},
+{"source":"../../img/eqpmt/phone.png", "margin":2, "category":"ImageNode", "key":-11, "loc":"58 242", "size":"38 53"},
+{"source":"../../img/eqpmt/eqpmt_1.png", "width":45, "height":61, "category":"ImageNode", "key":-18, "loc":"368 240"},
+{"source":"../../img/eqpmt/server_firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-15, "loc":"168 488"},
+{"text":"Commentaire", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-6, "loc":"368 488"}
+ ],
+  "linkDataArray": [ 
+{"from":-11, "to":-13, "points":[ 69,242,79,242,79,240,79,240,197,240,207,240 ]},
+{"from":-13, "to":-18, "points":[ 241,240,251,240,251,240,251,240,341,240,351,240 ]},
+{"from":-18, "to":-12, "points":[ 385,240,395,240,404,240,404,232,493,232,503,232 ]},
+{"from":-15, "to":-13, "points":[ 168,463.5,168,453.5,168,444,224,444,224,274.5,224,264.5 ]},
+{"from":-15, "to":-6, "points":[185,488,318.39482625084605,488]}
+ ]}

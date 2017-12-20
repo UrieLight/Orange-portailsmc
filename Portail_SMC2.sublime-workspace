@@ -1,0 +1,2051 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fuc",
+				"function without name"
+			],
+			[
+				"fun",
+				"function without name"
+			],
+			[
+				"fucn",
+				"function with name"
+			],
+			[
+				"getD",
+				"getDay()	Date"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"depart",
+				"department_id"
+			],
+			[
+				"mi",
+				"min	Attr"
+			],
+			[
+				"scri",
+				"scripts	Document"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"astre",
+				"astrnt_model"
+			],
+			[
+				"this_",
+				"this_architectur_div"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"ar",
+				"architecture_data_array"
+			],
+			[
+				"archi",
+				"architecture_data_array"
+			],
+			[
+				"this",
+				"this_service_name"
+			],
+			[
+				"service",
+				"service_plateforme_id_array"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"new_service_c",
+				"new_service_chainesout_id"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"plate",
+				"plateforme"
+			],
+			[
+				"re",
+				"required	Attr"
+			],
+			[
+				"admin",
+				"admin_model"
+			],
+			[
+				"chaineesc",
+				"id_chaineselected"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"func",
+				"function without name"
+			],
+			[
+				"id",
+				"id_new_chain"
+			],
+			[
+				"responsable_id",
+				"responsable_id_array"
+			],
+			[
+				"le",
+				"length	Array"
+			],
+			[
+				"new",
+				"new Array()	Array"
+			],
+			[
+				"responsable",
+				"responsable_sout1"
+			],
+			[
+				"arr",
+				"new Array()	Array"
+			],
+			[
+				"focus",
+				"focusout	.focusout()"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"onke",
+				"onkeyup	Attr"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"ht",
+				"html	.html()"
+			],
+			[
+				"lorem",
+				"lorem	lorem - HTML Kitchen sink"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/config/routes.php",
+			"settings":
+			{
+				"buffer_size": 3936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/models/Astreintes_model.php",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/Astreintes.php",
+			"settings":
+			{
+				"buffer_size": 2029,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "journal.txt",
+			"settings":
+			{
+				"buffer_size": 3491,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/astreintes.php",
+			"settings":
+			{
+				"buffer_size": 9862,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "astreintes ideas\n\nLe rang d'une semaine, ou alors l'intervalle de jours auquel \nrenvoie ce rang varie en fonction de l'année\nSemaine:\ndu dd/mm/yy au dd/mm/yy\n\n",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Windows",
+				"name": "astreintes ideas"
+			}
+		},
+		{
+			"contents": "INSERT INTO `astreintes_db`.`smc_maintce_rotation_permanence` \n(`smc_maintce_rotation_permanence_id`, `smc_maintce_rotation_permanence_rot`, `smc_maintce_rotation_permanence_perm`, `smc_maintce_rotation_permanence_jour`, `smc_maintce_rotation_permanence_heure`, `smc_maintce_rotation_permanence_heure_perm`, `periode_periode_id`) \nVALUES \n	(NULL, NULL, '15', 'Mardi', NULL, '8h30-12h30', '3'), \n	(NULL, '20', '15', 'Mardi', '8h00-15h00', '15h-18h00', '3'),\n	(NULL, '20', '15', 'Mercredi', '8h00-15h00', '8h30-12h30', '3'), \n	(NULL, NULL, '15', 'Mercredi', NULL, '15h-18h00', '3'), \n	(NULL, '20', '15', 'Jeudi', '8h00-15h00', '15h-18h00', '3'), \n	(NULL, NULL, '15', 'Jeudi', NULL, '15h-18h00', '3'), \n	(NULL, '20', '15', 'Vendredi', '8h00-15h00', '15h-18h00', '3'), \n	(NULL, NULL, '15', 'Vendredi', NULL, '15h-18h00', '3'),\n	(NULL, '15', NULL, 'Samedi', '9h00-14h00', NULL, '3'),\n	(NULL, '20', NULL, 'Samedi', '16h-21h00', NULL, '3'),\n	(NULL, 'Pilote de service d\\'astreinte', NULL, 'Dimanche', '16h-21h00', NULL, '3')\n;",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/astreintes_style.css",
+			"settings":
+			{
+				"buffer_size": 912,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/astreintes_script.js",
+			"settings":
+			{
+				"buffer_size": 9479,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/includings/administration/administration-service_script.php",
+			"settings":
+			{
+				"buffer_size": 10889,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "versionning\ninteractivité de l'architecture dans le catalogue",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Windows",
+				"name": "versionning"
+			}
+		},
+		{
+			"contents": "var current_day = datepicked.getDay();\nif(current_day==0) \n	current_day = 7; \n\nvar current_date = datepicked.getDate();\n\nmonth = mois[datepicked.getMonth()];\ncurrent_year = datepicked.getFullYear();\ndate_lundi = current_date-current_day+1; \ndate_dimanche = current_date+7-current_day;\n		\n		\n\n//if (datepicked.getDay()<7 && datepicked.getDay()>0) {//si il y a imbrication de mois au début de la semaine\nif (current_date<7 && date_lundi<1) {\n	\n	//Function get_dernier_lundi_mois_precedent(current_day) {\n		\n	for (var i = 0; i < mois_court.length; i++) {\n\n		if (datepicked.getMonth()+1 === mois_court[i]) {\n\n			test_mois_court = true;\n				// console.log('mois court!!'+datepicked.getMonth());\n\n      		break;//une fois les operations finished, on brise la boucle\n		}\n	}\n\n	if (! test_mois_court) {//si c'est un mois de moins de 31 jours\n\n  		if (datepicked.getMonth() == 2) {//si c'est le mois de février qui précède \n\n      		//annee bisextile\n      		if (current_year()%4 == 0) {//si c'est une annee where fevrier has 29 jours  \n\n				//date_lundi = current_date-current_day+1; \n  	  			date_lundi = current_date+date_lundi-2; \n				//date_dimanche = current_date+7-current_day;\n				month = mois[datepicked.getMonth()];\n					\n				change_date(date_lundi, month );\n      			\n      			// console.log('bisextil year !!');\n      		}else {//si c'est une annee where February has 28 days \n      			\n      			//date_lundi = current_date-current_day+1; \n  	  			date_lundi = current_date+date_lundi-3; \n				//date_dimanche = current_date+7-current_day;\n				month = mois[datepicked.getMonth()];\n						\n				change_date(date_lundi, date_dimanche);\n      		}\n  		}else {//si c'est un mois de 30 jours  qui précède \n  			  //date_lundi = current_date-current_day+1; \n  	  		date_lundi = current_date+date_lundi-1; \n			date_dimanche = current_date+7-current_day;\n			month = mois[datepicked.getMonth()];\n			\n			change_date(date_lundi, date_dimanche, month);\n  		}\n\n	}else {//si c'est either un mois de 31 jours qui précède \n			\n		//date_lundi = current_date-current_day+1; \n  	  	date_lundi = current_date+date_lundi; \n		date_dimanche = current_date+7-current_day;\n		month = mois[datepicked.getMonth()];\n		\n		change_date(date_lundi, date_dimanche, month);\n	}else {//Si c'est un mois court, il est entouré de mois de 31 jours \n\n		//date_lundi = current_date-current_day+1; \n		date_dimanche = current_date+7-current_day;\n		month = mois[datepicked.getMonth()];\n\n		change_date(date_lundi, date_dimanche, month);\n	}\n	//} \n}\n\n\n\n\nif (current_date<7 && datepicked.getDay()>0) {//si il y a imbrication de mois dans la semaine et ce jour est un dimanche \n\n	for (var i = 0; i < mois_court.length; i++) {\n\n		if (datepicked.getMonth()+1 === mois_court[i]) {\n\n			test_mois_court = true;\n				// console.log('mois court!!'+datepicked.getMonth());\n\n      		break;//une fois les operations finished, on brise la boucle\n		}\n	}\n\n	if (test_mois_court) {//si c'est un mois de moins de 31 jours\n\n  		if (datepicked.getMonth()+1 == 2) {//si c'est le mois de fevrier\n\n      		//annee bisextile\n      		if (datepicked.getFullYear()%4 == 0) {//si c'est une annee where fevrier a 29 jours (qui précède) \n\n					date_lundi = datepicked.getDate()-datepicked.getDay()+1; \n  	  			date_lundi = datepicked.getDate()+date_lundin-2; \n					//date_dimanche = datepicked.getDate()+7-datepicked.getDay();\n					\n					change_date(mois_annee, date_lundi, date_dimanche);\n      			\n      			// console.log('bisextil year !!');\n      		}else {//si c'est une annee where February has 28 days qui précède \n      			\n      				  date_lundi = datepicked.getDate()-datepicked.getDay()+1; \n  	  				date_lundi = datepicked.getDate()+date_lundin-3; \n						//date_dimanche = datepicked.getDate()+7-datepicked.getDay();\n						\n						//change_date(mois_annee, date_lundi, date_dimanche);\n      		}\n  		}else {//si c'est un mois de 30 jours qui précède \n  			  date_lundi = datepicked.getDate()-datepicked.getDay()+1; \n  	  		date_lundi = datepicked.getDate()+date_lundin-1; \n				\n				//change_date(mois_annee, date_lundi, date_dimanche);\n  		}\n\n	}else {//si c'est either un mois de 31 jours qui précède \n			\n		date_lundi = datepicked.getDate()-datepicked.getDay()+1; \n  	  date_lundi = datepicked.getDate()+date_lundin; \n		//date_dimanche = datepicked.getDate()+7-datepicked.getDay();\n		\n		//change_date(mois_annee, date_lundi, date_dimanche);\n	}else {//s'il n'y a pas d'implication au début du mois\n\n\n		date_lundi = datepicked.getDate()-datepicked.getDay()+1; \n		//date_dimanche = datepicked.getDate()+7-datepicked.getDay();\n		\n\n		change_date(date_lundi, date_dimanche, month );\n	}\n}\n\n\nFunction change_date (date lundi, date_dimanche, month) {\n		\n		mois_annee = month+' '+current_year;\n		$(' ') ;\n} ",
+			"file": "/C/Users/Uriel Ab's/Documents/gestion des dates des astreintes.js",
+			"file_size": 4745,
+			"file_write_time": 131156649440000000,
+			"settings":
+			{
+				"buffer_size": 4725,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 97.0,
+		"last_filter": "upper",
+		"selected_items":
+		[
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"toggle",
+				"View: Toggle Tabs"
+			],
+			[
+				"togg",
+				"View: Toggle Tabs"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"toggle t",
+				"View: Toggle Tabs"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Portail_SMC2",
+		"/C/wamp/www/Portail_SMC2/application",
+		"/C/wamp/www/Portail_SMC2/application/controllers",
+		"/C/wamp/www/Portail_SMC2/application/controllers/ct-pages",
+		"/C/wamp/www/Portail_SMC2/application/models",
+		"/C/wamp/www/Portail_SMC2/application/views",
+		"/C/wamp/www/Portail_SMC2/application/views/includings",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/astreintes",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration",
+		"/C/wamp/www/Portail_SMC2/css"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Portail_SMC2/journal.txt",
+		"/C/wamp/www/Portail_SMC2/js/architecture_viewer_script.js",
+		"/C/wamp/www/Portail_SMC2/js/jquery-ui.min.js",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration/administration-service_script.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/astreintes/astreintes_style.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/astreintes/astreintes_script.php",
+		"/C/wamp/www/Portail_SMC2/js/astreintes_script.js",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/include-chaines_soutien_et_escalade.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/administration-new_service.php",
+		"/C/wamp/www/Portail_SMC2/application/config/database.php",
+		"/C/wamp/www/Portail_SMC2/application/models/Administration_Model.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-templates/body_header.php",
+		"/C/wamp/www/Portail_SMC2/application/controllers/Catalogue.php",
+		"/C/wamp/www/Portail_SMC2/application/controllers/Administration.php",
+		"/C/wamp/www/Portail_SMC2/application/views/catalogue.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/Nouvelle_chaine_soutien.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/administration-new_architecture.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/administration-plateforme.php",
+		"/C/wamp/www/Portail_SMC2/css/administration-service_style.css",
+		"/C/wamp/www/Portail_SMC2/application/controllers/Administration_astreintes.php",
+		"/C/wamp/www/Portail_SMC2/js/catalogue_content_script.js",
+		"/C/wamp/www/Portail_SMC2/js/architecture_script.js",
+		"/C/wamp/www/Portail_SMC2/application/controllers/Plateforme.php",
+		"/C/wamp/www/Portail_SMC2/architectures_JSON_files/orange_money.json",
+		"/C/wamp/www/Portail_SMC2/architectures_JSON_files/Orange money.json",
+		"/C/wamp/www/Portail_SMC2/architectures_JSON_files/minimal.json",
+		"/C/wamp/www/Portail_SMC2/architectures_JSON_files/Absolute.json",
+		"/C/wamp/www/Portail_SMC2/architectures_JSON_files/Absolute237.json",
+		"/C/wamp/www/Portail_SMC2/css/catalog_style.css",
+		"/C/wamp/www/Portail_SMC2/application/models/Catalogue_Model.php",
+		"/C/wamp/www/Portail_SMC2/js/administration-service_script.js",
+		"/C/wamp/www/Portail_SMC2/js/go.js",
+		"/C/wamp/www/Portail_SMC2/js/go-debug.js",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration/Nouvelle_chaine_script.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration/administration-plateforme_script.php",
+		"/C/wamp/www/Portail_SMC2/application/models/Plateforme_Model.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/catalogue/responsables_fetching_and_filling.php",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/Portail_SMC2/js/chaines_script.js",
+		"/C/wamp/www/Portail_SMC2/application/models/get_DB_content_Model.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration/administration-chaines_soutien_et_escalade.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-administration/vw-catalogue/Successul_action.php",
+		"/C/wamp/www/Portail_SMC2/application/config/config.php",
+		"/C/wamp/www/Portail_SMC2/js/jquery_autocomplete.js",
+		"/C/wamp/www/Portail_SMC2/application/config/routes.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/catalogue/catalogue_style.php",
+		"/C/wamp/www/Portail_SMC2/application/views/vw-templates/page_head.php",
+		"/C/wamp/www/Portail_SMC2/application/views/includings/administration/administration-service_style.php",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/DragCreatingTool.js",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/js/ResizingTool.js",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/DraggingTool.js",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/DrawCommandHandler.js",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/RotatingTool.js",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/js/fabric.js",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/PortailSMC/js/architecture_script.js",
+		"/C/wamp/www/PortailSMC/js/script.js",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/css/style.css",
+		"/E/Wé/UPAC/skl/M 2/1- Projet Mémoire/r/Canvas-HTML5-WebGL/Canvas_html5_graphics/Canvas_html5_graphics.html",
+		"/C/wamp/www/PortailSMC/administration-service_form.php",
+		"/C/wamp/www/PortailSMC/administration-new_service.php",
+		"/C/Users/Uriel Ab's/Downloads/AgolaDark.tmTheme",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/SideBarFolders/Side Bar Folders.sublime-settings",
+		"/E/Sft/Dev/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Uriel Ab's/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"display_astreintes",
+			"mois_annee",
+			"month",
+			"date_lundi",
+			"h4",
+			"3",
+			"month",
+			"mois_court_rang",
+			"change_date",
+			"datepicked.getMonth()",
+			"mois_court",
+			"text",
+			"date",
+			"4",
+			"p",
+			"responsable_cell",
+			"h3",
+			"id",
+			"class",
+			"3",
+			"service",
+			"2",
+			"span",
+			"dateText",
+			"date",
+			"week",
+			"h3",
+			"2",
+			";\n",
+			"id_architecture",
+			"crée",
+			"caret",
+			"outil",
+			"loca",
+			"localisaion_plateforme",
+			"location",
+			"new_platform_outil_supervision",
+			"location",
+			"internet.",
+			"architecture",
+			"architecture_name",
+			"service_name",
+			"id_chaineselected",
+			"id_architecture",
+			"outil",
+			"this_service_name",
+			"serv.4",
+			"certificat server.2",
+			"serv-firewall.3",
+			"internet.2",
+			"phone.2",
+			"bts.2",
+			"serv.7",
+			"serv.6",
+			"serv-bd.2",
+			"serv.52",
+			"serv.5",
+			"Ord-cent.32",
+			"serv-data.22",
+			"Ord-cent.3",
+			"Ord-cent.2",
+			"Ord-cent.",
+			"serv-app.",
+			"serv-bd.",
+			"serv-encrypted.",
+			"certificat server.",
+			"serv-data.2",
+			"serv-firewall.",
+			"serv",
+			"bts",
+			"BTS",
+			"bts",
+			"loc",
+			"bind",
+			"constructe",
+			"plateforme_construct",
+			"3",
+			"save_new_architecture",
+			"recuperation_model_json_architecture",
+			"architecture_id",
+			"file_name",
+			"constructeur",
+			"chaines_esc",
+			"chaine_esc_service",
+			"chaine_sout_service",
+			"this_service_rang",
+			"        \n",
+			"Diagram",
+			"diagram",
+			"srv_pltfrm",
+			"\\",
+			"Plateforme",
+			"str",
+			"responsable_id_obj",
+			"plateforme",
+			"pltform_name",
+			"service_",
+			"service",
+			"Administration/",
+			"plateforme",
+			"Plateforme",
+			"administration_new_service_save_new_chainsout",
+			"responsable_sout",
+			"chainesout_id",
+			"pltfrm_mod",
+			"admin_model",
+			"ajoute_nouvelle_chaine_esc",
+			"name",
+			"php_includings",
+			"					$",
+			"compteur_de_niveau_escalades",
+			"overflow",
+			"id_new_chain",
+			"chaine_select_pane",
+			"id_chaineselected",
+			"idchainesout",
+			"list_respsbl_input",
+			"nouvelle_chaine_table",
+			"id_new_chain",
+			"nom_chaine",
+			"last_tr",
+			"nom",
+			"query",
+			"country_name",
+			"keyword",
+			"tableau_chaines_esc",
+			"valider",
+			"plateforme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/config/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1883,
+								1883
+							],
+							[
+								1918,
+								1918
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1883,
+										1884
+									],
+									"2":
+									[
+										1918,
+										1919
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1853,
+										1854
+									],
+									"2":
+									[
+										1888,
+										1889
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 299.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/models/Astreintes_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										379,
+										380
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										242,
+										243
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/controllers/Astreintes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1493,
+								1493
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1498,
+										1499
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1199,
+										1200
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "journal.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2354,
+								2354
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/views/astreintes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4352,
+								4352
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 134.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"auto_name": "astreintes ideas",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"default_dir": "C:\\wamp\\www\\Portail_SMC2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"default_dir": "C:\\wamp\\www\\Portail_SMC2",
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "css/astreintes_style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										911,
+										912
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										865,
+										866
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 692.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/astreintes_script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2700,
+								2700
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										2620,
+										2621
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 37.0,
+						"translation.y": 907.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "application/views/includings/administration/administration-service_script.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5171,
+								5171
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6514,
+										6515
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5169,
+										5170
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"auto_name": "versionning",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt.tmTheme",
+							"default_dir": "C:\\wamp\\www\\Portail_SMC2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Uriel Ab's/Documents/gestion des dates des astreintes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2499,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.740181268882,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Portail_SMC2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

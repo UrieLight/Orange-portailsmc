@@ -1,0 +1,6 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"key":"serv-bd.", "name":"serveur de bases de donnees", "source":"../../img/eqpmt/serveur_de_bd.png", "loc":"-211.96875 -103.78125"},
+{"key":"serv-app.", "name":"serveur applications", "source":"../../img/eqpmt/serveur_application.png", "loc":"76.21882086167801 -95.9467120181406"}
+ ],
+  "linkDataArray": [ {"from":"serv-bd.", "to":"serv-app."} ]}

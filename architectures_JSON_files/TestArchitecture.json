@@ -1,0 +1,14 @@
+{"class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+	{"key":"USSD", "name":"USSD", "source":"../../img/eqpmt/serveur.png", "loc":"-158.57586823342615 -86.23608448694853"},
+	{"key":"serv-encrypted.", "name":"serveur applications", "source":"../../img/eqpmt/encrypted_server.png", "loc":"95.42413176657385 -59.23608448694853"},
+	{"key":"Broker", "name":"Broker", "source":"../../img/eqpmt/serveur_donnees.png", "loc":"-126.57586823342615 42.76391551305147"},
+	{"key":"OM_GW", "name":"OM_GW", "source":"../../img/eqpmt/certificat_server.png", "loc":"-11.57586823342615 -98.23608448694853"}
+ ],
+  "linkDataArray": [ 
+	{"from":"USSD", "to":"Broker"},
+	{"from":"Broker", "to":"serv-encrypted."},
+	{"from":"USSD", "to":"serv-encrypted."},
+	{"from":"OM_GW", "to":"Broker"}
+ ]
+}

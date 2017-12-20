@@ -1,0 +1,10 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-7, "loc":"144 224"},
+{"source":"../../img/eqpmt/phone.png", "margin":2, "category":"ImageNode", "key":-11, "loc":"40.5 321.5", "size":"35 52"},
+{"source":"../../img/eqpmt/serveur_fichier.png", "width":45, "height":61, "category":"ImageNode", "key":-10, "loc":"264 272"}
+ ],
+  "linkDataArray": [ 
+{"from":-11, "to":-7, "points":[50,321.5,60,321.5,68,321.5,68,224,117,224,127,224]},
+{"from":-10, "to":-7, "points":[247,272,237,272,228,272,228,224,171,224,161,224]}
+ ]}

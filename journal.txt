@@ -1,0 +1,126 @@
+HEURISTIQUE
+- Forums
+- YouTube
+- PDFs
+
+Dbuggage
+- afficher les valeurs ambigues
+- derouler l'algo, pas a pas
+- faire la contraposé, pour voir si c'est pas plus aisé.
+- chercher toutes les possibilités et prendre la plus optimale, la plus critique, la plus simple et la plus stable
+
+- Dans un projet futur, il faut faire la différence entre les variables globales et les locales. l_nomvar, g_nomvar
+  Parce qu'à la longue on n'saura plus si une variable est utilisée quelque part ou pas, si on veut la modifier
+
+L'importation de la BD refusait avec l'erreur sur la clé étrangère par ce que'elle ne faisait pas 
+partie de la "clé primaire de la table".
+
+background-size: cover;
+
+
+
+1- on récupère le nom de la plate-forme
+
+2- on appele la fonction qui déduis son 
+type d'équipement
+
+3- on ajoute un objet dans le "array des objets" du 
+"data array" de la palette.
+*nom
+*label
+*source du type d'éqpmt
+
+on appelle la fonction AJAX qui rafraichira 
+instantanément la palette, à chaque validation de
+la liste des plates-formes.
+
+Problème avec la connexion pdo dans CodeIgniger
+	My config:
+
+	    'dsn'   => 'mysql:host=localhost;dbname=codeigniter3',
+	    'dbdriver' => 'pdo'
+
+problème avec le form_open()
+	- soit mettre le chemin complet entre ""
+	- soit changer l'url de "base_url" dans app/config/config.php
+
+
+Dans la chronologie du code, j'ai choisi de coder la lecture d'abord avant l'écriture dans la BD,
+par ce que le besoin de vérifier ce qu'on a écrit est nécessaire et ne passe que par la lecture.
+
+
+I create only one file for creating chain support 
+cause, an escalation chain is linked to a chain support
+
+ici j'ai cree 2 nouveaux fichiers pour creer les chaines de soutiens,
+mais en jumellant les 2, it shows me difficulties.
+
+Le footer qui montait et restait dans le bloc "chaine d'escalade"
+it was because i've wrapped the tables with a div, but i made a mistake 
+and didn't closed the ending div, and the other elements were considering as
+inside the escalation div. 
+
+
+J'ai delete les boutons de validation de selection des plates-formes et des outils
+parce que j'n'en vois plus l'utility, on n'peut rien valider/write dans la BD, puisque le service 
+n'est pas encore created.
+
+
+Suis-je obliged d'afficher la/les chaine(s) d'escalade associated to la chaine de soutien
+selected? 
+
+Je ne precise pas le nom de la chaine de soutien, par ce qu'elle est automatiquement link to la chaine
+de soutien created
+une chaine d'escalade n'est pas independante, elle appartien to une chaine de soutien, et donc
+elle appartient to celle just created
+
+
+/*==========  				  ========== *\Portail_SMC2-13-catalogue V.3 Astreintes - Astreintes, tentative daffichage des info du servicemaintenancerotation
+				avancement
+\*==========				  ========== */
+j'ai avancé dans le planning des astreintes.
+j'ai pu faire les templates pour les départements: smc et tmc.
+ainsi la base de données des astreintes.
+j'ai géré l'affichage des dates dans l'entête, mais j'ai pas encore géré les dates négatives
+ou non conventionnelles (sup à "31")
+
+12
+j'ai réglé le problème des dates arrières, sauf pour les changements de dates en arrière et en avant
+j'ai pas fini les dates de dimanches avant, avec les imbrications de mois.
+j'ai réorganisé la table smc_maintenance_rotation
+j'ai pu récupérer les données liées à une période récuoérer depuis l'interface de consultation
+j'ai pu afficher le convenablement résultat, je dois maintenaint l'étendre aux autres services.
+------------------------------------------------------------------------------------
+le probleme des dates avant est resolved, and some bugs fixed
+il me reste a gerer les annees imbriquées, et à étendre l'affichage des services.
+puis l'interface d'administration
+------------------------------------------------------------------------------------
+affichage astreintes, terminé.
+page d'administration en cour de développement.
+je dois permettre une vue par mois, même sur plusieurs mois
+si la fin d'un mois se retrouve au milieu d'une semaine, cette semaine appartien à ce mois.
+------------------------------------------------------------------------------------
+Catalogue conforme aux besoins, avec les chaines de soutien "propres".
+La création des chaines également est prête, ainsi que la création d'un nouveau groupe de soutien.
+
+
+
+
+pour les erreus de type 500 returned by the server vérifier les types des données qui lui sont 
+envoyées, par prudence, pour les entier, parser les valeur avec "intval()".
+Toujours vérifier les noms des tables dans la BD et dans le code.
+
+il existe des applications utilisées uniquement par des professionels, et donc, la communauté derrière
+peut ne pas exister, par ce que l'assistance est fournie par le fournissseur de l'application
+
+pour pouvoir faire correspondre des actions du fichier js à chaque service,
+je crèe le compteur de service dans le catalogue, je le récupère dans le script
+je mets toutes les lignes dans une boucle qui tourne autant qu'il y'a de service
+je concatène les variables au compteur, pour les rendre uniques et les lier à un service bien précis
+genre digram2 = $$(go.Diagram, "architecture2"...)
+
+
+Si on me demande pourquoi j'ai pas mis kelq chose dans l'appli, 
+beihn, c'est pas dans le cahier de charges.
+et puis, je prends ça comme une critique et j'dis que j'ai pas pensé à tout,*
+que l'appli n'est pas encore terminée..

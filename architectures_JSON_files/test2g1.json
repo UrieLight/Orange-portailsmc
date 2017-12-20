@@ -1,0 +1,17 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"text":"Text", "figure":"Circle", "fill":"red", "key":-5, "loc":"352 312"},
+{"source":"../../img/eqpmt/server_firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-16, "loc":"480 176"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-7, "loc":"128 240"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-4, "loc":"512 456"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-6, "loc":"208 464"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-8, "loc":"304 552"}
+ ],
+  "linkDataArray": [ 
+{"from":-7, "to":-5, "points":[ 145,240,155,240,164,240,164,312,312.5877884265988,312,322.5877884265988,312 ]},
+{"from":-5, "to":-16, "points":[ 352,282.5877884265988,352,272.5877884265988,352,272.5877884265988,480,272.5877884265988,480,210.5,480,200.5 ]},
+{"from":-4, "to":-5, "points":[ 495,440.70000000000005,373.8619246906922,331.675732221623 ]},
+{"from":-6, "to":-4, "points":[ 225,464,235,464,244,464,244,456,485,456,495,456 ]},
+{"from":-4, "to":-8, "points":[ 495,456,485,456,476,456,476,552,331,552,321,552 ]},
+{"from":-6, "to":-8, "points":[225,479.58333333333337,287,536.4166666666666]}
+ ]}

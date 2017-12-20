@@ -1,0 +1,16 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"key":"serv-bd.", "name":"serveur de bases de donnees", "source":"../../img/eqpmt/serveur_de_bd.png"},
+{"key":"serv-app.", "name":"serveur applications", "source":"../../img/eqpmt/serveur_application.png"},
+{"key":"Serv-msg.", "name":"Serveur de messagerie", "source":"../../img/eqpmt/serveur_mail.png"},
+{"key":"Ord-cent.", "name":"Ordinateur central", "source":"../../img/eqpmt/ordinateur_central.png"},
+{"key":"Serv-app-mob.", "name":"serveur appli mobile", "source":"../../img/eqpmt/serveur_app_mobiles.png"}
+ ],
+  "linkDataArray": [ 
+{"from":"serv-bd.", "to":"Serv-msg."},
+{"from":"serv-bd.", "to":"serv-app."},
+{"from":"Serv-msg.", "to":"Ord-cent."},
+{"from":"Ord-cent.", "to":"serv-bd."},
+{"from":"Serv-app-mob.", "to":"serv-bd."},
+{"from":"Ord-cent.", "to":"serv-app."}
+ ]}
