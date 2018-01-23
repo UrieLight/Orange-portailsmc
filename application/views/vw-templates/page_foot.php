@@ -4,6 +4,7 @@
 	
 			$(document).ready(function() {
 
+				/*
 				var today = new Date();
 				if(today.getDate() >= 1 && today.getDate() <= 31 && today.getMonth() == 11){
 					$('#id_favicon').attr('href', '../../img/logo_end_noel_favico.png');
@@ -11,6 +12,7 @@
 				}
 				else
 					$('Link').attr('href', '../../../logo.png');
+				*/
 				
 				$('#bouton_confirmtn_deconnexion').on('click', function(event) {
 					event.preventDefault();

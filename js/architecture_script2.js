@@ -366,6 +366,12 @@ $(document).ready(function() {
 		          	  		text: "Text"
 		          	  	},
 		          	  	{ 
+		          	  		source: root_path+"arrow.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
+		          	  	},
+		          	  	{ 
 		          	  		text: "Database", 
 		          	  		figure: "Database", 
 		          	  		fill: "lightgray" 
