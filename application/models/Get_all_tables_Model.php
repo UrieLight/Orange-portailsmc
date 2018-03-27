@@ -14,16 +14,40 @@
 		public function getall_services_info($service_family){
 
 			//$service_info_query = "null";
-			$this->db->order_by('service_nom', 'ASC');
+			// $this->db->order_by('service_nom', 'ASC');
 
 			if ($service_family == "all") {
 				# code...
+				$this->db->order_by('service_nom', 'ASC');
 				$service_info_query = $this->db->get('service');
-			} else {
+			} 
+			else if ($service_family == "sva") {
 				# code...
 
-				//$this->db->order_by('service_nom', 'ASC');
 		        $this->db->like('service_family', $service_family, 'both');
+				$this->db->order_by('service_nom', 'ASC');
+				$service_info_query = $this->db->get('service');
+			} 
+			else if ($service_family == "internet") {
+				# code...
+
+		        $this->db->like('service_family', $service_family, 'both');
+				$this->db->order_by('service_nom', 'ASC');
+				$service_info_query = $this->db->get('service');
+			} 
+			else if ($service_family == "interco") {
+				# code...
+
+		        $this->db->like('service_family', $service_family, 'both');
+				$this->db->order_by('service_nom', 'ASC');
+				$service_info_query = $this->db->get('service');
+
+			} 
+			else if ($service_family == "voix_data") {
+				# code...
+
+		        $this->db->like('service_family', $service_family, 'both');
+				$this->db->order_by('service_nom', 'ASC');
 				$service_info_query = $this->db->get('service');
 			}
 
@@ -114,9 +138,13 @@
 
 
 		//Récupération de toutes les architectures
-		public function getall_architectures(){
-
-			$this->db->order_by('architectur_nom_srvc', 'DESC');
+		public function getall_architectures($type_architecture){
+			
+			if ($type_architecture != '') {
+				# code...
+				$this->db->like('architecture_type ', $type_architecture, 'both');
+			}
+			$this->db->order_by('architectur_nom_srvc', 'ASC');//DESC
 			$architectur_query = $this->db->get('architecture');
 
 			return $architectur_query->result();

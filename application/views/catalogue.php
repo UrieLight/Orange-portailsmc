@@ -26,7 +26,7 @@
 
 		<div class="content_img"><a href="<?= $site_url ?>/Services/services_family_page"><img class="img-responsive" src="<?= $root_path ?>/img/content/return_arrow.png" alt="catalog" style="width: 2em; height: 2em; margin-bottom: -0.5em;" /></a></div>
 		
-		<div class="content_title"><h2> <span class="glyphicon glyphicon-cirle-arrow-left"></span> Catalogue technique des services <span class="badge" title="<?= $nbr_services; ?> Services enregistrés">(<?= $nbr_services; ?>)</span></h2></div>
+		<div class="content_title"><h2> <span class="glyphicon glyphicon-cirle-arrow-left"></span> Catalogue technique des services - <?= strtoupper(implode(' & ', explode('_', $cat_service_family))); ?> <span class="badge" title="<?= $nbr_services; ?> Services enregistrés">(<?= $nbr_services; ?>)</span></h2></div>
 
 		<div class="search_field" style="float: right;">
 

@@ -104,6 +104,8 @@
 			
 			$data['services'] = $this->cat_model->getall_services_info($service_family);
 
+			$data['cat_service_family'] = $service_family;
+
 			$data['responsables'] = $this->cat_model->getall_responsables();
 
 			$data['groupes_sout'] = $this->cat_model->getall_groupsoutien();
@@ -120,7 +122,7 @@
 
 			$data['service_outils'] = $this->cat_model->getall_service_outils();
 
-			$data['all_architectures'] = $this->cat_model->getall_architectures();
+			$data['all_architectures'] = $this->cat_model->getall_architectures('');
 
 			$data['all_services_architectures'] = $this->cat_model->getall_services_architectures();
 		

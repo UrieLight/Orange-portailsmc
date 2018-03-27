@@ -66,9 +66,9 @@
 			$data['site_url'] = site_url();
 			$data['administration_page_url'] = "Administration/admin_homepage";
 
-			$data['nbr_architectures'] = count($this->gat_model->getall_architectures());
+			$data['nbr_architectures'] = count($this->gat_model->getall_architectures('service'));
 
-			$data['all_architectures'] = $this->arch_model->getall_architectures();
+			$data['all_architectures'] = $this->gat_model->getall_architectures('service');
 
 
 			$this->load_head_page($data);

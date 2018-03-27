@@ -189,9 +189,10 @@ $(document).ready(function() {
 	        },
 	        
 	        new go.Binding("location", "loc", go.Point.parse).makeTwoWay(go.Point.stringify),
-	        { 
-	        	selectable: true 
-	        },
+	        { selectable: true },
+
+		    { rotatable: true},
+		    
 	        { 
 	        	resizable: true, 
 	        	resizeObjectName: "PANEL" 
@@ -355,44 +356,6 @@ $(document).ready(function() {
 		          	maxSelectionCount: 1,
 		          	nodeTemplateMap: myDiagram.nodeTemplateMap,  // share the templates used by myDiagram
 		          	model: new go.GraphLinksModel([  // specify the contents of the Palette
-		          	  	{ 
-		          	  		text: "", 
-		          	  		figure: "Triangle", 
-		          	  		fill: "green",
-		          	  		width: 15, 
-    	  					height: 10
-		          	  	},
-		          	  	{ 
-		          	  		text: "Text"
-		          	  	},
-		          	  	{ 
-		          	  		source: root_path+"arrow.png",/*,
-	        				width: 45, 
-	    	  				height: 61,*/ 
-	        				category: "ImageNode"
-		          	  	},
-		          	  	{ 
-		          	  		text: "Database", 
-		          	  		figure: "Database", 
-		          	  		fill: "lightgray" 
-		          	  	},
-		          	  	{ 
-		          	  		text: "Internet", 
-		          	  		figure: "Cloud", 
-		          	  		fill: "lightskyblue" 
-		          	  	},
-		          	  	{ 
-		          	  		text: "Text", 
-		          	  		figure: "Circle", 
-		          	  		fill: "red"/*,
-		          	  		width: 3, 
-    	  					height: 3,*/
-		          	  	},
-		          	  	{ 
-		          	  		text: "Commentaire", 
-		          	  		figure: "RoundedRectangle", 
-		          	  		fill: "lightyellow" 
-		          	  	},
 		          	  	{
 	        				source: root_path+"serveur.png",/*,
 	        				width: 45, 
@@ -542,6 +505,78 @@ $(document).ready(function() {
 	        				category: "ImageNode"
 	        				// margin: 5
 	        			},
+		          	  	{ 
+		          	  		text: "", 
+		          	  		figure: "Triangle", 
+		          	  		fill: "green",
+		          	  		width: 15, 
+    	  					height: 10
+		          	  	},
+		          	  	{ 
+		          	  		text: "Text"
+		          	  	},
+		          	  	{ 
+		          	  		text: "Database", 
+		          	  		figure: "Database", 
+		          	  		fill: "lightgray" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Internet", 
+		          	  		figure: "Cloud", 
+		          	  		fill: "lightskyblue" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Text", 
+		          	  		figure: "Circle", 
+		          	  		fill: "red"/*,
+		          	  		width: 3, 
+    	  					height: 3,*/
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 1", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "lightyellow" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 2", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "lightblue" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 3", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "pink" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 4", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "orange"
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 5", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill:  "lightgreen"
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 6", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "yellow" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 7", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "red" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 8", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill: "blue" 
+		          	  	},
+		          	  	{ 
+		          	  		text: "Block 9", 
+		          	  		figure: "RoundedRectangle", 
+		          	  		fill:  "green"
+		          	  	},
 		          	  	{
 	        				source: root_path+"nuage_noir.png",
 	        				width: 45, 
@@ -569,7 +604,31 @@ $(document).ready(function() {
 	    	  				height: 61, 
 	        				category: "ImageNode"
 	        				// margin: 5
-	        			}
+	        			},
+		          	  	{ 
+		          	  		source: root_path+"arrow_up.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
+		          	  	},
+		          	  	{ 
+		          	  		source: root_path+"arrow.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
+		          	  	},
+		          	  	{ 
+		          	  		source: root_path+"arrow_left.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
+		          	  	},
+		          	  	{ 
+		          	  		source: root_path+"arrow_down.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
+		          	  	}
 		          	])
 		        }
 	        );

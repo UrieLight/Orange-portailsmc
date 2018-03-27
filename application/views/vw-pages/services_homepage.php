@@ -81,6 +81,17 @@
 					<div style="text-align:center;"><a href="<?= $site_url ?>/Architectures/architectures_display" style="/*cursor:not-allowed;"><b>Architectures des services</b></a></div>
 				</div>
 			</div>
+
+			<!-- bloc Architectures outils -->
+			<div class="bloc">
+			
+				<div class="admin_service_icon" style="display: inline-block;">
+					<a href="<?= $site_url ?>/Architectures_outils/display" style="/*cursor:not-allowed;"><img class="thumbnail img-responsive img_bloc" src="<?= $root_path ?>/img/administration/tools_architecture.png" alt="img-architecture_outils" style=""/></a>
+					<!-- <br> -->
+					<!-- <div style="text-align:center;color:black;"><a href=""><b>Contacts</b></a></div> -->
+					<div style="text-align:center;"><a href="<?= $site_url ?>/Architectures_outils/display" style="/*cursor:not-allowed;"><b>Architectures des Outils</b></a></div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

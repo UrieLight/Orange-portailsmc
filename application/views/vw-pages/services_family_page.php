@@ -46,7 +46,7 @@
 				<div class="admin_service_icon" style="display: inline-block;">
 					<a href="<?= $site_url ?>/Catalogue/services_display/all"><img class="thumbnail img-responsive img_bloc" src="<?= $root_path ?>/img/services_family/all.svg" alt="img-famille_all_service" style="" /></a>
 					<!-- <br> -->
-					<div style="text-align:center;color:black;"><a class="family_caracter_class" famille="orange_money" href="<?= $site_url ?>/Catalogue/services_display/all"><b>Tous les Services</b></a></div>
+					<div style="text-align:center;color:black;"><a class="family_caracter_class" famille="all" href="<?= $site_url ?>/Catalogue/services_display/all"><b>Tous les Services</b></a></div>
 				</div>
 			</div>
 
@@ -54,9 +54,9 @@
 			<div class="bloc">
 			
 				<div class="admin_service_icon" style="display: inline-block;">
-					<a href="<?= $site_url ?>/Catalogue/services_display/orange_money"><img class="thumbnail img-responsive img_bloc" src="<?= $root_path ?>/img/services_family/orangemoney_img.jpg" alt="img-famille_service_orangemoney" style="" /></a>
+					<a href="<?= $site_url ?>/Catalogue/services_display/sva"><img class="thumbnail img-responsive img_bloc" src="<?= $root_path ?>/img/services_family/orangemoney_img.jpg" alt="img-famille_service_orangemoney" style="" /></a>
 					<!-- <br> -->
-					<div style="text-align:center;color:black;"><a class="family_caracter_class" famille="orange_money" href="<?= $site_url ?>/Catalogue/services_display/orange_money"><b>Orange Money</b></a></div>
+					<div style="text-align:center;color:black;"><a class="family_caracter_class" famille="sva" href="<?= $site_url ?>/Catalogue/services_display/sva"><b>SVA</b></a></div>
 				</div>
 			</div>
 
