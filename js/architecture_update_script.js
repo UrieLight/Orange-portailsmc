@@ -678,6 +678,13 @@ $(document).ready(function() {
 	        				width: 45, 
 	    	  				height: 61,*/ 
 	        				category: "ImageNode"
+						}, 
+						{
+		          	  		source: root_path + "dot.png",
+		          	  		/*,
+		          	  			        				width: 45, 
+		          	  			    	  				height: 61,*/
+		          	  		category: "ImageNode"
 		          	  	}
 		          	])
 		        }

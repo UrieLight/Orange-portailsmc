@@ -78,27 +78,46 @@
 								<a class="onglet_info" href="#chainesout" data-toggle="tab">
 									<img src="<?= $root_path ?>/img/content/soutien.png" alt="soutien_img" />  Chaine de soutien
 								</a>
-							</li>
-
+							</li> 
 							
 
-							<li role="presentation">
+							<!-- <li role="presentation">
 								<a class="onglet_info" href="#plateforme" data-toggle="tab">
 									<img src="<?= $root_path ?>/img/content/plateforme.png" alt="plateforme_img" /> Plates-formes
 								</a>
-							</li>
+							</li> -->
 
 							<!-- <li role="presentation">
 								<a class="onglet_info" href="#outil" data-toggle="tab">
 									<img src="<= $root_path ?>/img/content/outil.png" alt="outil_img" /> Outils de monitoring ou d'administration
 								</a>
 							</li> -->
+							
+							<?php
 
-							<li role="presentation">
-								<a class="onglet_info" href="#architecture" data-toggle="tab">
-									<img src="<?= $root_path ?>/img/content/architecture.png" alt="architecture_img" /> Architecture
-								</a>
-							</li>
+								$found = false;
+
+								// foreach ($all_services_architectures as $service_architecture) {
+								foreach ($all_architectures as $architecture) {
+									
+									//sotps when we've found a service who has an architecture
+									// if ($service->service_id == $service_architecture->sa_service_id)
+									if ($architecture->architectur_nom_srvc == $service->service_nom)
+										$found = true;
+								}
+
+								if($found){
+
+									echo '
+
+										<li role="presentation">
+											<a class="onglet_info" href="#architecture" data-toggle="tab">
+												<img src="../../../img/content/architecture.png" alt="architecture_img" /> Architecture
+											</a>
+										</li>
+									"';
+								}
+							?>
 						</ul>
 					</div>
 

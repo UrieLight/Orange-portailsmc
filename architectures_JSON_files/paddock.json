@@ -1,0 +1,24 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"text":"Orange \nPartners\nEcosystem", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-6, "loc":"552 123", "size":"151 320"},
+{"text":"APIGEE", "key":-3, "loc":"552 16", "size":"71 51"},
+{"text":"Self\nservice\nportal", "key":-4, "loc":"544 224", "size":"69 76"},
+{"text":"", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-5, "loc":"920 232", "size":"173 425"},
+{"text":"SMS API", "key":-2, "loc":"920 112", "size":"94 69"},
+{"text":"Commentaire", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-7, "loc":"920 40", "size":"170 35.52284749830794"},
+{"text":"OneAPI", "key":-8, "loc":"864 112"},
+{"text":"BE API", "key":-9, "loc":"920 200", "size":"91 90"},
+{"text":"DB", "figure":"Database", "fill":"lightgray", "key":-10, "loc":"960 248", "size":"35 54"},
+{"text":"REST", "key":-11, "loc":"864 208"},
+{"text":"CIM", "key":-12, "loc":"920 352", "size":"94 106"},
+{"text":"Bundle\nconnector", "key":-13, "loc":"624 232"},
+{"source":"../../img/eqpmt/nuage_noir.png", "width":45, "height":61, "category":"ImageNode", "key":-28, "loc":"720 111.5", "size":"153 155"},
+{"text":"GIN", "key":-14, "loc":"720 88"},
+{"text":"RPZEM", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-15, "loc":"720 144", "size":"80 37"},
+{"source":"../../img/eqpmt/arrow.png", "category":"ImageNode", "key":-33, "loc":"832 112", "size":"27 33"},
+{"source":"../../img/eqpmt/arrow.png", "category":"ImageNode", "key":-17, "loc":"832 208", "size":"28 34"}
+ ],
+  "linkDataArray": [ 
+{"from":-6, "to":-33, "points":[627.4996146042114,120.0339437119774,826.5,112.21607142857142]},
+{"from":-17, "to":-6, "points":[826.2392923176297,206.25121373928047,627.4784402883214,145.91309794466898]}
+ ]}

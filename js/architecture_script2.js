@@ -628,6 +628,12 @@ $(document).ready(function() {
 	        				width: 45, 
 	    	  				height: 61,*/ 
 	        				category: "ImageNode"
+		          	  	},
+		          	  	{ 
+		          	  		source: root_path+"dot.png",/*,
+	        				width: 45, 
+	    	  				height: 61,*/ 
+	        				category: "ImageNode"
 		          	  	}
 		          	])
 		        }
@@ -742,14 +748,16 @@ $(document).ready(function() {
 	        var $site_url = $('#site_url').attr('class');
 	        var architecture_name = $('#architecture_name').val();
 	        var architecture_desc = $('#architecture_description').val();
+	        var architecture_type = $('#architecture_type').val();
 
 
 	        // console.log('model json: '+model_json);
 	        var today_date = new Date();
 	        // console.log('Cree le '+);
-	        var architeture_creation_date = today_date.getFullYear()+'/'+digit_format(today_date.getMonth()+1)+'/'+digit_format(today_date.getDate());
+	        var architecture_creation_date = today_date.getFullYear()+'-'+digit_format(today_date.getMonth()+1)+'-'+digit_format(today_date.getDate());
 	        var architecture_author = $('#username').text();
 	        //architectur creation module extended
+	        
 	        $.ajax({
 	                url: $site_url+'/Administration/save_new_architecture',
 	                method: "POST",
@@ -757,12 +765,14 @@ $(document).ready(function() {
 	                    model_json: model_json,
 	                    architecture_name: architecture_name,
 	                    architecture_desc: architecture_desc,
-	                    architecture_author: architecture_author,
-	                    architeture_creation_date: architeture_creation_date
+						architecture_type: architecture_type,
+	                    architecture_creation_date: architecture_creation_date,
+	                    architecture_author: architecture_author
 	                },
 	                success:function (data) {
 
 	                    console.log(data);
+	                    //console.log(':P');
 	                    $('#architecture_name').val('');
 	                    $('#architecture_description').val('');
 	                    alert('Architecture créée avec succès !!');
@@ -772,6 +782,7 @@ $(document).ready(function() {
 	                    alert('Echec de céation de l\'Architecture !!');
 	                }
 	        });
+	        
 	    }
 
 	    //ajout d'un zero devant les chiffres inf to 10

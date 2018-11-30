@@ -65,7 +65,7 @@ $(document).ready(function($) {
 		var $last_th = $(this).siblings('div').children('table').children('thead').children().children(':last-child');
 		var $num_col = parseInt($last_th.attr("id"));
 
-		// console.log('ajout_norm; ');
+		console.log('ajout_norm; ');
 
 		if($num_col<7){
 
@@ -121,7 +121,7 @@ $(document).ready(function($) {
 			var $last_th = $(this).siblings('div').children('table').children('thead').children().children(':last-child');
 			var $num_col = parseInt($last_th.attr("id"));
 
-			// console.log('ajout_ext; ');
+			console.log('ajout_ext; ');
 
 			if($num_col<7){
 

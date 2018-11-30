@@ -16,6 +16,7 @@
 
 </style>
 
+
 <span id="site_url" class="<?= $site_url; ?>" style="display: none;"></span>
 
 
@@ -78,6 +79,8 @@
 					<em><textarea id="architecture_description" class="architecture_description form-control" name="architecture_desc" id="architecture_desc" placeholder="Description de l'architecture" cols="30" rows="3"></textarea></em>
 				</div>
 
+				
+
 				<div class="outils page-header">
 					<p class="info_title">Architecture <img src="<?= $root_path ?>/img/content/architecture.png" alt="architecture_img" /></p>
 				</div>	
@@ -117,6 +120,18 @@
 					<span class="glyphicon glyphicon-ok" style="color: black;"></span> 
 					Terminer
 			</span>
+
+			<!-- import d'un fichier d'architecture -->
+			<div class="input-group" style="float: right; margin-left: 7em;">
+				<div class="custom-file" style="border: .5px solid grey;display: inline-block;">
+					<input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+					<!-- <label class="custom-file-label" for="inputGroupFile04">Choose file</label> -->
+				</div>
+
+				<div class="input-group-append" style="display: inline; line-height: 0.8;">
+					<button class="btn btn-primary" type="button" id="">Importer</button>
+				</div>
+			</div>
 
 			<div class="modal fade" id="safe_service_validation_architecture">
 			

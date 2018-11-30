@@ -1,0 +1,15 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-9, "loc":"184 200"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-11, "loc":"416 200"},
+{"text":"SIT \n172.21.55.39", "key":-2, "loc":"176 248"},
+{"text":"172.21.95.88:3306", "key":-4, "loc":"408 248"},
+{"text":"App", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-8, "loc":"184 152"},
+{"text":"BD", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-6, "loc":"424 152"},
+{"source":"../../img/eqpmt/ordinateur_central_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-12, "loc":"64 96"},
+{"text":"LDAP", "key":-10, "loc":"64 48"}
+ ],
+  "linkDataArray": [ 
+{"from":-9, "to":-11, "points":[ 201,200,399,200 ]},
+{"from":-12, "to":-9, "points":[ 81,110.73333333333333,167,185.26666666666665 ]}
+ ]}

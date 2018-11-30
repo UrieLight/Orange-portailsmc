@@ -1,0 +1,10 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"key":"SMSC", "name":"SMSC", "source":"../../img/eqpmt/serveur.png", "loc":"5.7565479933205665 -83.66317717083069"},
+{"key":"serv.", "name":"serveur", "source":"../../img/eqpmt/serveur.png", "loc":"-125.24345200667943 -142.44094661682595"},
+{"key":"ZEBRA", "name":"ZEBRA", "source":"../../img/eqpmt/ordinateur_central.png", "loc":"158.75308814112896 -126.44094661682595"}
+ ],
+  "linkDataArray": [ 
+{"from":"serv.", "to":"SMSC"},
+{"from":"ZEBRA", "to":"SMSC"}
+ ]}

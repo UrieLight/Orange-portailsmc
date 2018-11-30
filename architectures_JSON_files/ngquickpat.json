@@ -1,0 +1,29 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-9, "loc":"344 200"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-11, "loc":"552 120"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-3, "loc":"552 216"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-4, "loc":"552 352"},
+{"text":"Netact\n172.30.100.14", "key":-2, "loc":"640 352"},
+{"text":"WMS\n172.22.67.9", "key":-6, "loc":"632 216"},
+{"text":"OMCR\n192.168.119.2", "key":-7, "loc":"640 120"},
+{"text":"SIT\n172.21.55.39", "key":-8, "loc":"328 152"},
+{"text":"FTP:20", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-10, "loc":"432 160"},
+{"text":"SFTP:22", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-12, "loc":"464 208"},
+{"text":"SFTP:22", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-13, "loc":"480 304"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-14, "loc":"384 400"},
+{"text":"Oracle fédéré", "key":-15, "loc":"384 448"},
+{"source":"../../img/eqpmt/ordinateur_central.png", "width":45, "height":61, "category":"ImageNode", "key":-18, "loc":"224 368"},
+{"text":"AD", "key":-16, "loc":"224 416"},
+{"text":"LDAP", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-17, "loc":"264 312"},
+{"source":"../../img/eqpmt/serveur_fichier.png", "width":45, "height":61, "category":"ImageNode", "key":-19, "loc":"128 216"},
+{"text":"25", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-20, "loc":"184 216"}
+ ],
+  "linkDataArray": [ 
+{"from":-9, "to":-11, "points":[361,193.46153846153845,535,126.53846153846155]},
+{"from":-9, "to":-3, "points":[361,201.30769230769232,535,214.69230769230768]},
+{"from":-9, "to":-4, "points":[361,212.42307692307693,535,339.5769230769231]},
+{"from":-9, "to":-14, "points":[348.9,224.5,379.1,375.5]},
+{"from":-18, "to":-9, "points":[241,344.2,327,223.8]},
+{"from":-19, "to":-9, "points":[145,214.74074074074073,327,201.25925925925927]}
+ ]}

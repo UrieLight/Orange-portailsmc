@@ -1,0 +1,16 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-9, "loc":"96 232"},
+{"text":"BBIP", "figure":"Cloud", "fill":"lightskyblue", "key":-6, "loc":"357.4187488555908 134.875", "size":"121 83"},
+{"source":"../../img/eqpmt/serveur_fichier.png", "width":45, "height":61, "category":"ImageNode", "key":-13, "loc":"336 312"},
+{"text":"SIT\n172.21.55.39", "key":-2, "loc":"56 280"},
+{"source":"../../img/eqpmt/ordinateur_central_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-12, "loc":"144 112"},
+{"text":"LDAP", "key":-7, "loc":"144 72"},
+{"source":"../../img/eqpmt/arrow.png", "category":"ImageNode", "key":-3, "loc":"312 296", "size":"29 37"},
+{"text":"Mail", "key":-8, "loc":"328 360"}
+ ],
+  "linkDataArray": [ 
+{"from":-9, "to":-6, "points":[113,225.68398400180513,297.5990120358012,157.09984792715284]},
+{"from":-12, "to":-9, "points":[134.2,136.5,105.8,207.5]},
+{"from":-9, "to":-3, "points":[113,237.03703703703704,305.5,294.0740740740741]}
+ ]}

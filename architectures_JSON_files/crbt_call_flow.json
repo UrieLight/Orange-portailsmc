@@ -1,0 +1,26 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"source":"../../img/eqpmt/phone.png", "margin":2, "category":"ImageNode", "key":-6, "loc":"160 336", "size":"38 55"},
+{"source":"../../img/eqpmt/eqpmt_6.png", "width":45, "height":61, "category":"ImageNode", "key":-21, "loc":"275 298", "size":"68 75"},
+{"source":"../../img/eqpmt/eqpmt_6.png", "width":45, "height":61, "category":"ImageNode", "key":-3, "loc":"464 328", "size":"70 77"},
+{"source":"../../img/eqpmt/phone.png", "margin":2, "category":"ImageNode", "key":-4, "loc":"632 328", "size":"38 55"},
+{"source":"../../img/eqpmt/eqpmt_3.png", "width":45, "height":61, "category":"ImageNode", "key":-16, "loc":"432 192", "size":"67 77"},
+{"text":"HLR", "figure":"Database", "fill":"lightgray", "key":-24, "loc":"256 152", "size":"57 63"},
+{"source":"../../img/eqpmt/eqpmt_2.png", "width":45, "height":61, "category":"ImageNode", "key":-15, "loc":"600 136", "size":"74 85"},
+{"text":"MS A", "key":-23, "loc":"160 376"},
+{"text":"T_MSC", "key":-9, "loc":"456 384"},
+{"text":"O_MSC", "key":-10, "loc":"280 344"},
+{"text":"GMSC", "key":-11, "loc":"432 240"},
+{"text":"CRBT \nPlatform", "key":-12, "loc":"600 192"},
+{"text":"MS B", "key":-13, "loc":"640 368"},
+{"text":"1- MS A ------ O_MSC\n2- O_MSC ------ HLR\n3- HLR ------ O_MSC\n4- O_MSC ------ T_MSC\n5- T_MSC ------ O_MSC\n6- O_MSC ------ CRBT Platform\n\n7- CRBT Platform ------ O_MSC\n\n8- CRBT Platform ____ MS A\n \n9- MS B ------ T_MSC\n10- T_MSC ------ O_MSC\n11- O_MSC ------ CRBT Platform\n\n12- O_MSC ____ MS A, T_MSC ____ MS B ", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-27, "loc":"8 205.5", "size":"229 299"},
+{"text":"------ Signaling\n____ Trunk", "figure":"RoundedRectangle", "fill":"lightgreen", "key":-31, "loc":"-48 24"}
+ ],
+  "linkDataArray": [ 
+{"from":-6, "to":-21, "points":[171,332.3652173913043,249,306.5913043478261]},
+{"from":-3, "to":-4, "points":[491,328,621,328]},
+{"from":-21, "to":-3, "points":[301,302.1269841269841,437,323.7142857142857]},
+{"from":-21, "to":-16, "points":[301,280.44585987261144,406.5,209.21656050955414]},
+{"from":-24, "to":-21, "points":[260.07543673369963,183.3165138484289,271.1609589041096,268.5]},
+{"from":-16, "to":-15, "points":[457.5,183.5,571,145.66666666666669]}
+ ]}

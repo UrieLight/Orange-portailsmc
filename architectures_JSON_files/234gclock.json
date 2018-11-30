@@ -1,0 +1,25 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"text":"Makepe\n\n\n\n\n\n\n\n\n\n", "figure":"RoundedRectangle", "fill":"lightblue", "key":-28, "loc":"556 184", "size":"185 156"},
+{"text":"Franqueville\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "figure":"RoundedRectangle", "fill":"lightgreen", "key":-31, "loc":"266 254.5", "size":"385 486.4060506233078"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-9, "loc":"368 104"},
+{"source":"../../img/eqpmt/serveur.png", "category":"ImageNode", "key":-2, "loc":"208 256"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-11, "loc":"560 184"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-4, "loc":"312 384"},
+{"source":"../../img/eqpmt/serveur_de_bd.png", "width":45, "height":61, "category":"ImageNode", "key":-5, "loc":"424 312"},
+{"text":"NPO\n192.168.119.9", "key":-6, "loc":"192 304"},
+{"text":"OMC-R\n192.168.119.2", "key":-7, "loc":"304 432"},
+{"text":"OMCR2", "key":-8, "loc":"424 360"},
+{"text":"Netact\n172.30.100.14", "key":-10, "loc":"560 232"},
+{"text":"FTP:21", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-12, "loc":"248 208"},
+{"text":"FTP:21", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-13, "loc":"328 312"},
+{"text":"FTP:21", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-14, "loc":"408 248"},
+{"text":"SFTP:22", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-15, "loc":"504 152"},
+{"text":"Gesom2:\n192.168.200.200\n234GClock Nokia & Alu", "key":-16, "loc":"384 48"}
+ ],
+  "linkDataArray": [ 
+{"from":-9, "to":-2, "points":[ 351,120.15,225,239.85 ]},
+{"from":-9, "to":-11, "points":[ 385,111.08333333333333,543,176.91666666666669 ]},
+{"from":-9, "to":-4, "points":[ 363.1,128.5,316.9,359.5 ]},
+{"from":-9, "to":-5, "points":[ 374.5961538461538,128.5,417.40384615384613,287.5 ]}
+ ]}

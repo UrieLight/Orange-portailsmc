@@ -45,14 +45,7 @@
 {"text":"MME", "key":-45, "loc":"448 440"},
 {"text":"", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-46, "loc":"824 208", "size":"45 33"},
 {"text":"PFS", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-47, "loc":"816 192", "size":"49 40"},
-{"text":"MSC/VLR", "key":-48, "loc":"528 120"},
-{"text":"• 03 MSC: \n- CBC\n- Makepe\n- Ndogbong\n \n• 03 SDM: \n- Mbankolo\n- CBC\n- Ndogbong\n \n• 02 PTS: \n- Mbankolo\n- Ndogbong\n \n• 09 MGW: \n- Banengo\n- CBC\n- Garoua\n- Makepe\n- Maroua\n- Zokok\n- Ndogbong\n- Ngaoundere\n- Ngoa-Ekelle-New \n- Nkolzie", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-49, "loc":"168 848", "size":"145 347"},
-{"text":"BSC NOKIA\n\n\nBSC-402473_MCBSC_NGOA_EK\n\nBSC-402474_MCBSC_CBC1\n\nBSC-402821_MCBSC_Mak-Nodal\n\nBSC-402844_MCBSC_IPD\n\nBSC-402835_MCBSC_Mra-ZOKOK1\n\nBSC-402836_MCBSC_Mra-ZOKOK2\n\nBSC-402881_MCBSC_GRA-Agence\n\nBSC-402826_MCBSC_Ngaoundere1\n\nBSC-403492_MCBSC_Mak-Nodal2\n\nBSC-403493_MCBSC_CBC2\n\nBSC-403491_MCBSC_NGOA_EK2\n\nBSC-403489_MCBSC_Banengo1\n\nBSC-403487_MCBSC_Banengo2\n\nBSC-403488_MCBSC_IPD2\n", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-50, "loc":"400 856", "size":"213 373.3857381233079"},
-{"text":"RNC NOKIA\n\n- mcRNC_Ndogbong1\n- mcRNC_CBC1\n- mcRNC_Mra-Zokok1\n- mcRNC_Ngd-Lagare2\n- mcRNC_Garoua-Agence1\n- mcRNC_Banengo1\n- mcRNC_MakepePla1\n- mcRNC_NgoaEkelle", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-51, "loc":"632 744"},
-{"text":"BSC ALU\n\n\n- Bafoussam_Banengo2-MX\n\n- Balessing-MX\n\n- Bamenda_Hotspot-MX\n\n- Bamenda_Hotspot2-MX\n\n- Bertoua-MX\n\n- Bertoua2-MX\n\n- Buea_SignalHill-MX\n\n- Ebolowa_Agence-MX\n\n- Foumban_Kounga-MX\n\n- Kribi_Orange-MX\n\n- Kumba_Mabanda-MX\n\n- Mbalmayo_Lagare-MX\n\n- NkogEdzen-MX\n\n- Souza-MX\n\n- Yaounde_CBC1-MX\n\n- Yaounde_Mbankolo-MX\n\n- Yaounde_Mimboman-MX\n\n- Yaounde_NgoaEkelle-MX\n\n- Yaounde_Messamendongo\n-MX", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-52, "loc":"848 952"},
-{"text":"NOKIA", "key":-53, "loc":"505 648", "size":"424 29.994921875000003"},
-{"text":"ALU", "key":-54, "loc":"960 648", "size":"413 29.994921875000003"},
-{"text":"RNC ALU\n\nRNC_Bafoussam_1\nRNC_Douala_Franqueville2\nRNC_Ngaroundere_Lagare1\nRNC_Yaounde_CBC1\nRNC_Yaounde_CBC2\n", "figure":"RoundedRectangle", "fill":"lightyellow", "key":-55, "loc":"1080 736"}
+{"text":"MSC/VLR", "key":-48, "loc":"528 120"}
  ],
   "linkDataArray": [ 
 {"from":-11, "to":-13, "points":[ 199.5,110.73239436619718,247,102.70422535211267 ]},

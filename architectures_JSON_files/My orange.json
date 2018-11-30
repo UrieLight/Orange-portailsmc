@@ -1,0 +1,6 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"text":"Text", "figure":"Circle", "fill":"red", "key":-5, "loc":"232 336"},
+{"source":"../../img/eqpmt/server_firewall.png", "width":45, "height":61, "category":"ImageNode", "key":-16, "loc":"472 416"}
+ ],
+  "linkDataArray": [ {"from":-5, "to":-16, "points":[259.9028738784137,345.30095795947125,455,410.3333333333333]} ]}

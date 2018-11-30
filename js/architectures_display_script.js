@@ -5,7 +5,7 @@
 */
 $(document).ready(function () {
 	
-    var nbr_total_architectures = $('#nbr_total_architectures').text();//not at its rigth place
+    var nbr_total_architectures = $('#nbr_total_architectures').text();//not at his rigth place
     // console.log('rang: '+nbr_total_architectures);//test
 
     // console.log('initialisation nbr de architectures: '+nbr_total_architectures);
@@ -74,7 +74,7 @@ $(document).ready(function () {
     // $('.architecture_img, .architecture_name').on('click', function() {
     $('.architecture_name').on('click', function() {
         
-        console.log($(this));
+        // console.log($(this));
 
         var diagram_div = $(this).parent().parent().siblings('div .service_info').children().children().children('.diagramme');//attr('rang');//div du diagram
         var rang_architecture = diagram_div.attr('rang');//$('#rang_architectures').val();
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
         // init_architectures_diagrams ();
 
-        console.log('diagram_array: '+diagram_array);//test
+        // console.log('diagram_array: '+diagram_array);//test
 
         // var this_architectur_div = $(this).parent().parent().parent().siblings('div').children('div #architecture').children('div[id^=architecture]');
         var this_architectur_id = diagram_div.attr('id');
@@ -283,16 +283,26 @@ $(document).ready(function () {
         }
 
 
+
         /*================= boutton de génération de l'image  =================*/ 
 
 
-        $('span[id^=download_button]').on('click', function() {
-                // event.preventDefault();
-                /* Act on the event */
-                console.log('boutton: '+$(this).text());
-                makeBlob();
+            /*$('span[id^=download_button]').on('click', function() {
+                    // event.preventDefault();
+                    //Act on the event 
+                    console.log('boutton: '+$(this).text());
+                    makeBlob();
 
-        });
+            });*/
+
+            var clickedButtonId = '';
+            $('span[id^=download_button]').on('click', function() {
+                    // event.preventDefault();
+                    /* Act on the event */
+                    clickedButtonId = $(this).attr('id');
+                    console.log('boutton: '+clickedButtonId);//$(this).text());
+                    makeBlob();
+            });
 
     
 
@@ -304,7 +314,7 @@ $(document).ready(function () {
             function myCallback(blob) {
 
                 var url = window.URL.createObjectURL(blob);
-                var filename = "model_file_name";
+                var filename = "model_file_name.png";
 
                 var a = document.createElement("a");
                 a.style = "display: none";
@@ -329,13 +339,12 @@ $(document).ready(function () {
 
                 var blob = diagram_array[this_architecture_rang-1].makeImageData( { background: "white", returnType: "blob", callback: myCallback });
 
-                // console.log('diagram_array: '+diagram_array[this_architecture_rang-1]);
+                console.log('diagram_array: '+diagram_array[this_architecture_rang-1]);
                 // console.log("blob: "+blob);
-                myCallback(blob);
+                //myCallback(blob);
             }
 
     });
-
 
 
 
